@@ -20,7 +20,7 @@ It demonstrates my abilities in **UI/UX design** and **frontend development**.
 ---
 
 ## Figma Design
-- **Figma file (.fig) link:** [View Figma Design](https://drive.google.com/your-figma-link)  
+- **Figma file (.fig) link:** [View Figma Design](https://drive.google.com/drive/folders/12CB2xZ9d3nDOHcB4TTVonsdJqagCJvAg)  
 - **Screenshots / Supporting Images:** Included in the Google Drive folder.
 
 ---
