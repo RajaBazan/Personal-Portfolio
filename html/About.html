@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Bazan</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            main: '#ED5E35',
+            mainHover: '#d24e2a'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="flex justify-between items-center p-6 bg-white shadow-md sticky top-0 z-50">
+    <div class="text-2xl font-bold text-main">Built<span class="text-black">By</span>Bazan</div>
+    <nav>
+      <ul class="flex space-x-6">
+        <li><a href="/html/index.html" class="hover:text-main transition">Home</a></li>
+        <li><a href="/html/About.html" class="hover:text-main transition">About</a></li>
+        <li><a href="/html/Portfolio.html" class="hover:text-main transition">Portfolio</a></li>
+        <li><a href="/html/contact.html" class="hover:text-main transition">Contact</a></li>
+        <li>
+          <a href="/assets/BAZAN CV.pdf" target="_blank" class="px-4 py-2 bg-main text-white rounded hover:bg-mainHover transition">
+            Download CV
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="flex flex-col md:flex-row items-center justify-between p-8 md:p-16 bg-gradient-to-r from-main/20 to-main/10">
+    <div class="md:w-1/2 mb-8 md:mb-0">
+      <h4 class="text-lg text-gray-600 mb-2">HELLO I'M</h4>
+      <h1 class="text-4xl md:text-5xl font-bold text-main mb-4">Muhammad Bazan Muneeb!</h1>
+      <p class="text-gray-700">
+        UX/UI Designer and Developer passionate about creating user-friendly, responsive, and visually appealing websites.
+        I love transforming ideas into interactive digital experiences using modern technologies.
+      </p>
+    </div>
+    <div class="md:w-1/2 flex flex-col items-center">
+      <img src="/Assets/Port.png" alt="Muhammad Bazan" class="rounded-lg shadow-lg mb-4 w-64 md:w-80">
+      <div class="flex space-x-4">
+        <img src="/Assets/html-5.png" alt="HTML" class="w-10">
+        <img src="/Assets/css-3.png" alt="CSS" class="w-10">
+        <img src="/Assets/java-script.png" alt="JavaScript" class="w-10">
+        <img src="/Assets/figma.png" alt="Figma" class="w-10">
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main class="p-8 md:p-16 space-y-12">
+
+    <!-- Professional Summary -->
+    <section>
+      <h2 class="text-2xl font-bold text-main mb-2">PROFESSIONAL SUMMARY</h2>
+      <p class="text-gray-700">
+        A Computer Science graduate from COMSATS University, Sahiwal Campus, specializing in UI/UX design and front-end development.
+        Skilled in creating responsive and user-friendly web interfaces using HTML, CSS, Bootstrap, and jQuery,
+        with a strong eye for intuitive design and seamless user experiences.
+        Proficient in Figma, Adobe Illustrator, and other graphic design tools, blending creativity with technical expertise
+        to deliver impactful digital solutions.
+      </p>
+    </section>
+
+    <!-- Education -->
+    <section>
+      <h2 class="text-2xl font-bold text-main mb-2">EDUCATION</h2>
+      <p class="text-gray-700"><strong>Bachelor of Computer Science</strong><br>COMSATS UNIVERSITY (Sahiwal Campus), Pakistan</p>
+    </section>
+
+    <!-- Projects -->
+    <section>
+      <h2 class="text-2xl font-bold text-main mb-6">PROJECTS</h2>
+      <div class="flex gap-6 overflow-x-auto pb-4">
+        
+        <!-- Project Card 1 -->
+        <div class="min-w-[300px] bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+          <img src="/Assets/12643939_5013256.jpg" alt="CRUD Book Rest Api" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-2">CRUD Book Rest Api</h3>
+            <p class="text-gray-600 mb-4">A Spring Boot project to manage books using REST APIs with DTOs.</p>
+            <a href="https://github.com/RajaBazan/CRUD-book-RestApi-using-SpringBoot_Dto" target="_blank" class="inline-block px-4 py-2 bg-main text-white rounded hover:bg-mainHover transition">View Project</a>
+          </div>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div class="min-w-[300px] bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+          <img src="/Assets/Quiz.jpg" alt="Quick Quiz" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-2">Quick Quiz</h3>
+            <p class="text-gray-600 mb-4">A simple inheritance-based Java quiz application for learning purposes.</p>
+            <a href="https://github.com/RajaBazan/Quick-quiz-inheritance" target="_blank" class="inline-block px-4 py-2 bg-main text-white rounded hover:bg-mainHover transition">View Project</a>
+          </div>
+        </div>
+
+        <!-- Project Card 3 -->
+        <div class="min-w-[300px] bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+          <img src="/assets/Rock.jpg" alt="Rock Paper Scissors" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-2">Rock Paper Scissors</h3>
+            <p class="text-gray-600 mb-4">An interactive Rock Paper Scissors game built with Java. Try your luck and challenge the computer!</p>
+            <a href="https://github.com/RajaBazan/Rock-Paper-Scissors-Task-in-Java" target="_blank" class="inline-block px-4 py-2 bg-main text-white rounded hover:bg-mainHover transition">View Project</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Languages -->
+    <section>
+      <h2 class="text-2xl font-bold text-main mb-2">LANGUAGES</h2>
+      <ul class="list-disc list-inside text-gray-700">
+        <li>English</li>
+        <li>Urdu</li>
+      </ul>
+    </section>
+
+    <!-- Tools & Skills -->
+    <section>
+      <h2 class="text-2xl font-bold text-main mb-2">TOOLS & SKILLS</h2>
+      <ul class="flex flex-wrap gap-4 text-gray-700">
+        <li class="flex items-center gap-2"><img src="/Assets/html-5.png" class="w-6"> HTML</li>
+        <li class="flex items-center gap-2"><img src="/Assets/css-3.png" class="w-6"> CSS</li>
+        <li class="flex items-center gap-2"><img src="/Assets/java-script.png" class="w-6"> JavaScript</li>
+        <li class="flex items-center gap-2"><img src="/Assets/figma.png" class="w-6"> Figma</li>
+      </ul>
+    </section>
+
+    <!-- Portfolio Buttons -->
+    <section>
+  <h2 class="text-2xl font-bold text-main mb-4">PORTFOLIO</h2>
+  <div class="flex flex-wrap gap-4">
+    <a href="https://www.behance.net/rajabazankayani" target="_blank" class="px-6 py-3 bg-main text-white font-semibold rounded-lg shadow hover:bg-mainHover transition">
+      Behance Portfolio
+    </a>
+    <a href="https://github.com/RajaBazan" target="_blank" class="px-6 py-3 bg-black text-white font-semibold rounded-lg shadow hover:bg-gray-800 transition">
+      GitHub Portfolio
+    </a>
+    <a href="https://www.linkedin.com/in/muhammad-bazan-muneeb-63725b255/" target="_blank" class="px-6 py-3 bg-main text-white font-semibold rounded-lg shadow hover:bg-mainHover transition">
+      LinkedIn Portfolio
+    </a>
+  </div>
+</section>
+
+
+  </main>
+
+</body>
+</html>

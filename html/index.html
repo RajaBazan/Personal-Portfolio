@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Bazan</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            main: '#ED5E35',
+            mainHover: '#d24e2a'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Navbar -->
+  <header class="flex justify-between items-center p-6 bg-white shadow-md sticky top-0 z-50">
+    <div class="text-2xl font-bold text-main">Built<span class="text-black">By</span>Bazan</div>
+    <nav>
+      <ul class="flex space-x-6">
+        <li><a href="/html/index.html" class="hover:text-main transition">Home</a></li>
+        <li><a href="/html/About.html" class="hover:text-main transition">About</a></li>
+        <li><a href="/html/Portfolio.html" class="hover:text-main transition">Portfolio</a></li>
+        <li><a href="/html/contact.html" class="hover:text-main transition">Contact</a></li>
+        <li>
+          <a href="/assets/BAZAN CV.pdf" target="_blank" class="px-4 py-2 bg-main text-white rounded hover:bg-mainHover transition">
+            Download CV
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="flex flex-col-reverse md:flex-row items-center justify-between p-8 md:p-16 bg-gradient-to-r from-[#FFEDE6] to-[#FFE5DD]">
+    
+    <!-- Text Content -->
+    <div class="md:w-1/2 space-y-4">
+      <h4 class="text-lg text-gray-600">HELLO I'M</h4>
+      <h1 class="text-4xl md:text-5xl font-bold text-main"><span>Muhammad Bazan Muneeb!</span></h1>
+      <h2 class="text-2xl font-semibold text-gray-700">UX/UI Designer and Developer</h2>
+      <p class="text-gray-700">
+        I’m a passionate UI/UX Designer and Frontend Developer dedicated to creating user-friendly, responsive, and visually appealing websites. 
+        I love transforming ideas into interactive digital experiences using modern technologies and clean design principles.
+      </p>
+
+      <!-- Buttons -->
+      <div class="flex flex-wrap items-center gap-4 mt-4">
+        <a href="/Html/About.html" class="px-6 py-3 bg-main text-white rounded-lg shadow hover:bg-mainHover transition">About Me</a>
+        <div class="flex items-center gap-2 text-gray-700">
+          <span>Follow Me:</span>
+          <a href="https://x.com/BazanRaja" class="text-gray-700 hover:text-main transition"><img src="/assets/twitter.png" alt=""></a>
+          <a href="https://github.com/RajaBazan" class="text-gray-700 hover:text-main transition"><img src="/assets/github.png" alt=""></a>
+          <a href="https://dribbble.com/Bazziraja" class="text-gray-700 hover:text-main transition"><img src="/assets/dribble.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Image Content -->
+    <div class="md:w-1/2 flex flex-col items-center mb-8 md:mb-0">
+      <img src="/Assets/Port.png" alt="Muhammad Bazan Muneeb" class="rounded-lg shadow-lg w-64 md:w-80 mb-4">
+      <div class="flex space-x-4">
+        <img src="/Assets/html-5.png" alt="HTML5" class="w-10">
+        <img src="/Assets/css-3.png" alt="CSS3" class="w-10">
+        <img src="/Assets/java-script.png" alt="JavaScript" class="w-10">
+        <img src="/Assets/figma.png" alt="Figma" class="w-10">
+      </div>
+    </div>
+
+  </section>
+
+</body>
+</html>

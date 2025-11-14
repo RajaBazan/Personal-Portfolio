@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Bazan</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            main: '#ED5E35',
+            mainHover: '#d24e2a'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="flex justify-between items-center p-6 bg-white shadow-md sticky top-0 z-50">
+    <div class="text-2xl font-bold text-main">Built<span class="text-black">By</span>Bazan</div>
+    <nav>
+      <ul class="flex space-x-6">
+        <li><a href="/html/index.html" class="hover:text-main transition">Home</a></li>
+        <li><a href="/html/About.html" class="hover:text-main transition">About</a></li>
+        <li><a href="/html/Portfolio.html" class="hover:text-main transition">Portfolio</a></li>
+        <li><a href="/html/contact.html" class="hover:text-main transition">Contact</a></li>
+        <li>
+          <a href="/assets/BAZAN CV.pdf" target="_blank" class="px-4 py-2 bg-main text-white rounded hover:bg-mainHover transition">
+            Download CV
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="max-w-6xl mx-auto p-8 md:p-16">
+    <h1 class="text-4xl font-bold text-main mb-6 text-center">Get in Touch</h1>
+    <p class="text-center text-gray-700 mb-12">
+      I’d love to hear from you! Whether you have a question, project idea, or just want to say hello, feel free to drop a message.
+    </p>
+
+    <div class="flex flex-col md:flex-row gap-12">
+      
+      <!-- Contact Form -->
+      <div class="md:w-2/3 bg-white p-8 rounded-xl shadow-lg">
+        <form action="#" method="POST" class="space-y-6">
+          <div>
+            <label for="name" class="block text-gray-700 font-semibold mb-2">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-main">
+          </div>
+          <div>
+            <label for="email" class="block text-gray-700 font-semibold mb-2">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-main">
+          </div>
+          <div>
+            <label for="message" class="block text-gray-700 font-semibold mb-2">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-main"></textarea>
+          </div>
+          <button type="submit" class="px-6 py-3 bg-main text-white rounded-lg shadow hover:bg-mainHover transition font-semibold">
+            Send Message
+          </button>
+        </form>
+      </div>
+
+      <!-- Contact Info & Social Links -->
+      <div class="md:w-1/3 space-y-8">
+        <div class="bg-white p-6 rounded-xl shadow-lg space-y-4">
+          <h2 class="text-2xl font-bold text-main">Contact Info</h2>
+          <p class="text-gray-700"><img class="fas fa-envelope mr-2 text-main" src="/assets/email.png" alt=""> rajabazan1122@gmail.com</p>
+          <p class="text-gray-700"><img class="fas fa-phone mr-2 text-main" src="/assets/telephone.png" alt=""> +92 3173030100</p>
+          <p class="text-gray-700"><img class="fas fa-map-marker-alt mr-2 text-main" src="/assets/location-pin.png" alt=""> Sahiwal, Pakistan</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-lg space-y-4">
+          <h2 class="text-2xl font-bold text-main">Follow Me</h2>
+          <div class="flex space-x-4">
+            <a href="https://x.com/BazanRaja" class="text-gray-700 hover:text-main text-2xl"><img src="/assets/twitter.png" alt=""></i></a>
+            <a href="https://github.com/RajaBazan" class="text-gray-700 hover:text-main text-2xl"><img src="/assets/github.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/muhammad-bazan-muneeb-63725b255/" class="text-gray-700 hover:text-main text-2xl"><img src="/assets/linkedin.png" alt=""></a>
+            <a href="https://dribbble.com/Bazziraja" class="text-gray-700 hover:text-main text-2xl"><img src="/assets/dribble.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>
